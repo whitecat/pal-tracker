@@ -1,0 +1,18 @@
+plugins {
+    id "java"
+    id "org.springframework.boot" version "1.5.4.RELEASE"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework:spring-webmvc'
+    compile 'org.apache.tomcat.embed:tomcat-embed-core'
+    compile 'ch.qos.logback:logback-classic'
+    compile 'org.slf4j:jcl-over-slf4j'
+    compile 'org.slf4j:jul-to-slf4j'
+    compile 'org.springframework.boot:spring-boot-autoconfigure'
+
+}
