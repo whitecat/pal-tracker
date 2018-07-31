@@ -5,4 +5,4 @@ applications:
   routes:
   - route: leetcat-pal-tracker-review.apps.evans.pal.pivotal.io
   env:
-    WELCOME_MESSAGE: Hello from Review
+    WELCOME_MESSAGE: Hello from Review Round 2
