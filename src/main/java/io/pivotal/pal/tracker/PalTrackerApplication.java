@@ -17,11 +17,6 @@ public class PalTrackerApplication {
     }
 
     @Bean
-    public TimeEntryRepository getRepository() {
-        return new InMemoryTimeEntryRepository();
-    }
-
-    @Bean
     public ObjectMapper jsonObjectMapper() {
         return Jackson2ObjectMapperBuilder.json()
                 .serializationInclusion(JsonInclude.Include.NON_NULL)
