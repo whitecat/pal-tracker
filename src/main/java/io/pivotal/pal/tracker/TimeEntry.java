@@ -8,6 +8,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
+@Builder
 @EqualsAndHashCode
 public class TimeEntry {
     private long id;
